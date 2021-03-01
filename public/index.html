@@ -11,28 +11,13 @@
     />
     <title>React App</title>
 <script>
-const api = `https://new-calender-api.herokuapp.com/`;
-const Authorization ="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imd1ZXN0IiwiaWF0IjoxNjE0NTczMTIxLCJleHAiOjE2MTQ1ODgxMjF9.wvhRPTAgE8AY5MslzpZybYv8Pk23e-JIGXg9SVq8uGQ";
-
-//GET Call
-fetch(`${api}events`, {
-  method: "GET",
-
-  headers: {
-   Authorization
-  }
-})
-  .then(resp => resp.json())
-  .then(data => {
-    console.log(data);
-  });
 
 
 
-// window.searchPanelJson = {
-//     id: '2',
-//     name: "RAM",
-// }
+window.searchPanelJson = {
+    id: '2',
+    name: "RAM",
+}
 </script>
 </head>
   <body>
