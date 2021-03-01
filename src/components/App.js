@@ -19,10 +19,8 @@ class App extends React.Component {
     const { user } = this.state;
     return (
       <div>
-        {/* <p> ID: {user.id} </p>
-        <p> Name: {user.name} </p> */
-        
-        <p>test</p>}
+        <p> ID: {user.id} </p>
+        <p> Name: {user.name} </p>
       </div>
     );
   }
